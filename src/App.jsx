@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import initialProducts from "./data/data";
-import Products from "./components/Products";
+import ProductsForm from "./components/ProductsForm";
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
     <div>
       <h1>Product Management App</h1>
 
-      <Products
+      <ProductsForm
         products={products}
         setProducts={setProducts}
       />
